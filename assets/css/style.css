@@ -21,6 +21,7 @@ body {
 #menu {
     font-size: 120%;
     letter-spacing: normal;
+    float: right;
 }
 
 #menu, #logo {
@@ -29,7 +30,7 @@ body {
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 25px;
 }
