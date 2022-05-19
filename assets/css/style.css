@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Source+Code+Pro&display=swap');
 
+* {
+   margin: 0;
+   padding: 0;
+   border: none; 
+}
+
 body {
     font-family: kanit, sans-serif;
     font-weight: 300;
@@ -29,6 +35,7 @@ body {
 }
 
 #menu a {
+    display: block;
     text-decoration: none;
     color: inherit;
 }
@@ -59,19 +66,27 @@ body {
 #text {
     font-size: 100%;
     font-family: Source Code Pro, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
+    letter-spacing: 2px;
     width: 300px;
-    height: 300px;
-
+    height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(251, 132, 85, 0.5);
-
-    bottom: 30px;
+    bottom: 50px;
     left: 150px;
-
     position: absolute;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#social-media > li {
+    display: inline;
+    font-size: 175%;
+    padding: 20px;
+}
+
+#social-media i {
+    color: #fff;
 }
