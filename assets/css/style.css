@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: kanit, sans-serif;
+    font-weight: 300;
+    background-color: #05bcff;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 25px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: normal;
+}
+
+#menu, #logo {
+    line-height: 80px;
+    color: #fff;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #000;
+}
+
+#outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#text {
+    color: #D3D3D3;
+    text-align: center;
+}
+
+#outer-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-riccardo-185801.jpg);
+    background-size: cover;
+}
