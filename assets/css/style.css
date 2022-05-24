@@ -155,3 +155,17 @@ body {
     position: absolute;
 }
 
+#images {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    height: 800px;
+    width: 100%;
+}
+
+#images > img {
+    width: 100%;
+    height: auto;
+
+}
