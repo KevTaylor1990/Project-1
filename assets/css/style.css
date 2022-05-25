@@ -197,3 +197,36 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #D3D3D3;
 }
+
+@media screen and (max-width:768px) {
+
+    #outer-image {
+        height: 500px;
+        width: 100%;
+    }
+
+    #text {
+        left: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    #logo {
+        font-size: 40px;
+    }
+    
+    body{
+        height: 844px;
+    }
+
+    #outer-image {
+        width: 80%;
+    }
+
+    #text {
+
+        left: 0;
+    }
+}
