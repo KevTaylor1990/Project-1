@@ -215,11 +215,20 @@ input[type=submit]:hover {
 @media screen and (max-width:480px) {
 
     #logo {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        line-height: 25px;
+
     }
     
     body{
-        height: 844px;
+        height: 480px;
     }
 
     #outer-image {
