@@ -70,7 +70,7 @@ body {
     font-family: Source Code Pro, sans-serif;
     letter-spacing: 2px;
     width: 300px;
-    height: 400px;
+    height: 350px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(251, 132, 85, 0.5);
@@ -113,7 +113,7 @@ body {
     padding-left: 10px;
     background-color: rgba(251, 132, 85, 0.5);
     top: 30px;
-    left: 25%;
+    left: 33%;
     position: absolute;
 }
 
@@ -129,16 +129,16 @@ body {
     padding-left: 10px;
     background-color: rgba(251, 132, 85, 0.5);
     bottom: 30px;
-    left: 25%;
+    left: 33%;
     position: absolute;
 }
 
 #images {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
-    height: 800px;
+    height: 600px;
     width: 100%;
 }
 
@@ -152,17 +152,18 @@ body {
     padding-top: 60px;
 }
 
-label {
-    color: #fff;
-    padding-left: 30px;
-}
-
 #background-image {
     height: 600px;
     width: 100%;
     background-image: url(../images/pexels-david-gomes-2647471.jpg);
     background-size: cover;
     background-position: center;
+}
+
+label {
+    color: #fff;
+    padding-left: 30px;
+    display: inline-block;
 }
 
 input[type=text], select, textarea {
@@ -172,11 +173,11 @@ input[type=text], select, textarea {
     border: 1px solid #fff;
     border-radius: 4px;
     box-sizing: border-box;
-    display: inline;
     margin-top: 12px;
     margin-bottom: 16px;
     margin-left: 30px;
-    resize: vertical;
+    resize: none;
+    display: block;
 }
 
 input[type=submit] {
@@ -193,71 +194,48 @@ input[type=submit]:hover {
     background-color: #D3D3D3;
 }
 
-@media screen and (max-width:768px) {
-
-    #outer-image {
-        width: 100%;
-    }
-
-    #text {
-        left: 0;
-        background-color: rgba(251, 132, 85, 0.5);
-    }
-}
-
-@media screen and (max-width:480px) {
+@media screen and (min-width:1281px) {
 
     #logo {
-        font-size: 25px;
+        font-size: 50px;
     }
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 15px;
-        margin-bottom: 10px;
-        line-height: 25px;
-
-    }
-    
-    body{
-        height: 480px;
+    #outer {
+        width: 100%;
+        height: 800px;
     }
 
     #outer-image {
         width: 100%;
         max-width: none;
+        height: 800px;
     }
 
     #text {
-        left: 0;
+        left: 50px;
     }
 
-    #top-left, #bottom-left {
-        width: 40%;
-        height: 37%;
-        left: 10px;
-    }
-
-    #top-right, #bottom-right {
-        width: 40%;
-        height: 37%;
-        right: 10px;
-    }
-
-    h2 {
-        font-size: 20px;
+    #outer-image-about{
         width: 100%;
-        text-align: center;
-        margin: 0;
+        height: 800px;
     }
 
-    p {
-        font-size: 12px;
+    #images {
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    #columns {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0;
+    }
+
+    #columns img {
+        vertical-align: middle;
         width: 100%;
-        text-align: center;
-        margin: 0;
+        height: 400px;
     }
-
-
 }
