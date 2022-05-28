@@ -23,6 +23,9 @@ Main aim is to build a responsive website using HTML and CSS only.
 * The navigation font is clear and the color contrasts well to the background.
 * The navigation bar clearly tells the user the name of the website and makes navigtating the different page simple.
 
+### Website 
+* The webite has a light blue background with white text.
+
 ### - Home
 * The Home page has a background image which is calming to create a preaceful first experience to the website.
 * There is a small paragragh telling the user what the site is about.
@@ -32,4 +35,4 @@ Main aim is to build a responsive website using HTML and CSS only.
 * There is four paragraphs explaining what mindfulness and yoga is and how it can benefit mental health.
 
 ### Gallery
-* 
+* The Gallery page has eight images to promote relaxation. 

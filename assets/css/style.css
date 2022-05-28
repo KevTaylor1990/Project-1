@@ -46,19 +46,19 @@ body {
 }
 
 #outer {
-    height: 800px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #text {
-    color: #D3D3D3;
+    color: #ffffff;
     text-align: center;
 }
 
 #outer-image {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url(../images/pexels-riccardo-185801.jpg);
     background-size: cover;
@@ -70,11 +70,11 @@ body {
     font-family: Source Code Pro, sans-serif;
     letter-spacing: 2px;
     width: 300px;
-    height: 200px;
+    height: 400px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(251, 132, 85, 0.5);
-    bottom: 50px;
+    top: 50px;
     left: 150px;
     position: absolute;
 }
@@ -94,66 +94,42 @@ body {
 }
 
 #outer-image-about {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url(../images/pexels-pixabay-37351.jpg);
     background-size: cover;
     background-position: center;
 }
 
-#top-left {
+#top-center {
+    color: #ffffff;
     font-size: 100%;
     font-family: Source Code Pro, sans-serif;
+    text-align: center;
     letter-spacing: 2px;
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(251, 132, 85, 0.5);
-    top: 50px;
-    left: 150px;
+    top: 30px;
+    left: 25%;
     position: absolute;
 }
 
-#top-right {
+#bottom-center {
+    color: #ffffff;
     font-size: 100%;
     font-family: Source Code Pro, sans-serif;
+    text-align: center;
     letter-spacing: 2px;
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(251, 132, 85, 0.5);
-    top: 50px;
-    right: 150px;
-    position: absolute;
-}
-
-#bottom-left {
-    font-size: 100%;
-    font-family: Source Code Pro, sans-serif;
-    letter-spacing: 2px;
-    width: 300px;
-    height: 300px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(251, 132, 85, 0.5);
-    bottom: 50px;
-    left: 150px;
-    position: absolute;
-}
-
-#bottom-right {
-    font-size: 100%;
-    font-family: Source Code Pro, sans-serif;
-    letter-spacing: 2px;
-    width: 300px;
-    height: 300px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(251, 132, 85, 0.5);
-    bottom: 50px;
-    right: 150px;
+    bottom: 30px;
+    left: 25%;
     position: absolute;
 }
 
@@ -172,27 +148,44 @@ body {
 }
 
 #contact {
-    height: 800px;
-    padding: 100px 40px;
+    height: 600px;
+    padding-top: 60px;
+}
+
+label {
+    color: #fff;
+    padding-left: 30px;
+}
+
+#background-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/pexels-david-gomes-2647471.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 input[type=text], select, textarea {
-    width: 100%;
+    color: #fff;
+    width: 30%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
+    display: inline;
+    margin-top: 12px;
     margin-bottom: 16px;
+    margin-left: 30px;
     resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #05bcff;
     color: #fff;
     padding: 12px 20px;
+    margin-left: 30px;
     border: none;
     border-radius: 4px;
+    background-color: #05bcff;
     font-size: large;
 }
 
