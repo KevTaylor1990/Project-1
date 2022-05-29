@@ -279,8 +279,6 @@ input[type=submit]:hover {
         padding: 0;
     }
 
-    
-
     #columns {
         flex: 25%;
         max-width: 25%;
@@ -297,7 +295,7 @@ input[type=submit]:hover {
 @media (min-width:768px) and (max-width:1024px) {
 
     #logo {
-        font-size: 45px;
+        font-size: 100%;
     }
 
     #outer {
@@ -345,13 +343,129 @@ input[type=submit]:hover {
 
     #social-media {
         position: fixed;
+        padding-bottom: 5px;
     }
 }
 
 @media (min-width:481px) and (max-width:767px) {
+    
+    #logo {
+        font-size: 30px;
+    }
 
+    #outer {
+        width: 100%;
+        height: 600px;
+    }
+
+    #outer-image {
+        width: 100%;
+        max-width: none;
+        height: 600px;
+    }
+    
+    #text {
+        left: 40px;
+    }
+
+    #outer-image-about{
+        height: 800px;
+    }
+
+    #top-center #bottom-center {
+        font-size: small;
+
+    }
+
+    #images {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    #columns {
+        flex: 50%;
+        max-width: 50%;
+        padding: 0;
+    }
+
+    #columns img {
+        vertical-align: middle;
+        width: 100%;
+        height: 100px;
+    }
+
+    #background-image {
+        height: 600px;
+    }
+
+    #social-media {
+        position: fixed;
+        padding-bottom: 5px;
+    }
 }
 
 @media (min-width:320px) and (max-width:480px) {
+    
+    #logo {
+        font-size: 30px;
+    }
 
+    #menu{
+        font-size: smaller;
+    }
+
+    #outer {
+        width: 100%;
+        height: 600px;
+    }
+
+    #outer-image {
+        width: 100%;
+        max-width: none;
+        height: 600px;
+    }
+    
+    #text {
+        font-size: small;
+        left: 40px;
+    }
+
+    #outer-image-about{
+        height: 800px;
+    }
+
+    #top-center #bottom-center {
+        font-size: x-small;
+
+    }
+
+    #images {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    #columns {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #columns img {
+        vertical-align: middle;
+        width: 100%;
+        height: 200px;
+    }
+
+    #background-image {
+        height: 600px;
+    }
+
+    #social-media {
+        position: fixed;
+        padding-bottom: 5px;
+    }
 }
