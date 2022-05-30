@@ -6,7 +6,7 @@ This webite is based off how Mindfulness and Yoga can be beneficial to mental he
 This project is for educational purposes and is not for business use.
 Main aim is to build a responsive website using HTML and CSS only.
 
-![Am I Responsive](assets/images/Screenshot%202022-05-26%20at%2011.49.55.png)
+![Am I Responsive](assets/images/Screenshot%202022-05-30%20at%2016.05.59.png)
 
 ## [View live website in GitHub pages](https://kevtaylor1990.github.io/Project-1/)
 
@@ -36,3 +36,29 @@ Main aim is to build a responsive website using HTML and CSS only.
 
 ### Gallery
 * The Gallery page has eight images to promote relaxation. 
+
+### Contact
+* There is an image at the top of the page.
+* The  Contact page consists of three parts, First name, Last name and a Subject section.
+
+### Footer
+* The footer sits at the bottom of all the pages.
+* The Footer consists of four forms of Social Media, Facebook, Twitter, Youtube and Instagram.
+
+## Testing 
+* I have tested that the website works on multiple browsers: chrome, Safari and Firefox.
+* I have confirmed that the website is responsive, functions and looks good on all standard screens sizes using devtools device toolbar.
+* I confirm that the navagation, header, about, contact text are readable and easy to understand.
+
+## Validator Testing
+
+### HTML
+No errors or warning to show when passing through W3C validator.
+
+### CSS 
+No error found when passing through the offical (jigsaw) validator.
+
+### Accessability
+![](assets/images/Screenshot%202022-05-30%20at%2015.45.37.png)
+
+## Deployment
