@@ -13,6 +13,8 @@ body {
     height: fit-content;
 }
 
+/*Add style to Logo and the Navbar */
+
 #logo {
     float: left;
     font-size: 300%;
@@ -45,6 +47,8 @@ body {
 #menu a:hover {
     border-bottom: 1px solid #000;
 }
+
+/*Adding style to the outer sections for background images and text */
 
 #outer {
     height: 600px;
@@ -80,6 +84,8 @@ body {
     position: absolute;
 }
 
+/*Add style to the footer with social media links */
+
 #social-media {
     position: relative;
     bottom: 0;
@@ -96,6 +102,8 @@ body {
 #social-media i {
     color: #fff;
 }
+
+/*add style to about page */
 
 #outer-image-about {
     height: 600px;
@@ -139,6 +147,8 @@ body {
     position: absolute;
 }
 
+/*add style to image gallery */
+
 #images {
     clear: both;
     line-height: 0;
@@ -152,6 +162,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+/*add style to contact me page */
 
 #contact {
     height: 1200px;
@@ -208,6 +220,8 @@ input[type=submit]:hover {
     background-color: #D3D3D3;
 }
 
+/*large desktop screens */
+
 @media screen and (min-width:1281px) {
 
     #logo {
@@ -254,6 +268,8 @@ input[type=submit]:hover {
     }
 }
 
+/*laptop screens */
+
 @media (min-width:1025px) and (max-width:1280px) {
 
     #logo {
@@ -299,6 +315,8 @@ input[type=submit]:hover {
         height: 200px;
     }
 }
+
+/*large tablet screens */
 
 @media (min-width:768px) and (max-width:1024px) {
 
@@ -354,6 +372,8 @@ input[type=submit]:hover {
         padding-bottom: 5px;
     }
 }
+
+/*low res tablet and high res phone screens */
 
 @media (min-width:481px) and (max-width:767px) {
     
@@ -413,6 +433,8 @@ input[type=submit]:hover {
         position: fixed;
     }
 }
+
+/*small phone screens*/
 
 @media (min-width:320px) and (max-width:480px) {
     
