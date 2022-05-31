@@ -17,7 +17,7 @@ Main aim is to build a responsive website using HTML and CSS only.
 
 ## Features
 
-### - Navigation
+###  Navigation
 * Featured on the top of the page you have the logo to the left of the page: Mindfulness Yoga, that links to the top  of the page.
 * To the right of the page there is the Home, About, Gallery and Contact that link to the different pages.
 * The navigation font is clear and the color contrasts well to the background.
