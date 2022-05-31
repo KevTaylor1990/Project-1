@@ -26,7 +26,7 @@ Main aim is to build a responsive website using HTML and CSS only.
 ### Website 
 * The webite has a light blue background with white text.
 
-### - Home
+###  Home
 * The Home page has a background image which is calming to create a preaceful first experience to the website.
 * There is a small paragragh telling the user what the site is about.
 
