@@ -69,3 +69,8 @@ The site was deployed to GitHub pages. The steps to deploy are as following:
 
 ## Credits
 
+### Content 
+* The code for the social media links in the footer was taken from the CI Love running project.
+
+### Media
+* The images used on the websitewas taken from Pexels
